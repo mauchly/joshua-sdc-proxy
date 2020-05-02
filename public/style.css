@@ -1,0 +1,127 @@
+.priceBreakup {
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.guestsMenu {
+  z-index: 2;
+  width: 200px;
+  position: absolute;
+  background-color: white;
+  border-style: solid;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+#reservationParent {
+  position: absolute;
+  top: 625px;
+  right: 200px;
+  height: 136.75%;
+}
+
+#reservation {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+div#carouselContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: white;
+  z-index: 5;
+}
+
+div#guestsDropdown {
+  z-index: 4;
+  border: 1px solid #e7e5e5;
+  padding: 3px;
+  height: 145px;
+}
+
+td.guestNumbers {
+  padding: 0 0 0 10px;
+}
+
+
+Button.reserveButton {
+  float: center;
+  border-color:#888888 !important;
+  box-shadow: 0.5px 0.5px 5px #888888;
+  border-radius: 1px !important;
+  height: 35px;
+  width: 230px;
+  position: relative;
+  background-color: rgba(255, 0, 0, 0.75);
+  font-weight: bold;
+  color: white;
+  margin: 0 3px;
+}
+
+div.guestsFrame {
+  height: 20px;
+  background-color: white;
+  border-style: solid;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgba(116, 95, 28, 0.781);
+  text-align: left;
+  margin-top: 3px;
+  z-index: 2;
+}
+
+div.text {
+  font: Circular;
+  margin: 10px 0;
+}
+
+div.underReserve {
+  margin: 10px 50px 100px 50px;
+}
+
+Button#adultMinus {
+  margin: auto 1.25px auto auto;
+}
+
+#reviews {
+  margin: 0 40px;
+}
+
+#afterReviews1 {
+  height: 800px;
+  width: 600px;
+  margin: 90px 20px 60px 80px;
+  float: left;
+}
+
+#afterReviews2 {
+  height: 550px;
+  width: 500px;
+  margin: 0 10px 25px 120px;
+}
+
+#afterReviews3 {
+  height: 375px;
+  width: 500px;
+  margin: 5px 0 0 117px;
+}
+
+#afterReviews4 {
+  height: 600px;
+  width: 85%;
+  margin: 0 40px 0 150px;
+}
+
+.guestsFrame {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+#recommendations {
+  position: relative;
+  z-index: -1;
+}
